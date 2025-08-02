@@ -105,6 +105,36 @@ All data is stored locally in the browser's localStorage:
 - Safari
 - Edge
 
+## Deployment
+
+### Deploy to Vercel
+
+1. **Install Vercel CLI** (optional):
+   ```bash
+   npm i -g vercel
+   ```
+
+2. **Deploy directly from GitHub**:
+   - Push your code to GitHub
+   - Go to [vercel.com](https://vercel.com)
+   - Import your GitHub repository
+   - Vercel will automatically detect it's a Vite project
+   - Deploy with one click
+
+3. **Deploy from local**:
+   ```bash
+   vercel
+   ```
+
+### Deploy to GitHub Pages
+
+1. **Build the project**:
+   ```bash
+   npm run build
+   ```
+
+2. **Push to GitHub** and enable GitHub Pages in repository settings
+
 ## License
 
 This project is open source and available under the MIT License.
