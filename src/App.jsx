@@ -77,10 +77,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-apple-gray">
-      <div style={{ padding: '20px', textAlign: 'center' }}>
-        <h1>Red Bull Sales Tracker</h1>
-        <p>Loading...</p>
-      </div>
+      
       <Routes>
         <Route 
           path="/" 
